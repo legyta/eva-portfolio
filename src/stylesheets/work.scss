@@ -1,0 +1,131 @@
+@import "../stylesheets/global.scss";
+
+.work {
+  margin: 0px 0px;
+}
+
+.work {
+  .work-info {
+    margin: $margin;
+  }
+
+  .work-info h1 {
+    font-size: $h1;
+    margin: $margin-within;
+    color: $grey;
+  }
+  .work-info h2 {
+    font-size: $h2;
+    color: $grey;
+  }
+  .work-info p {
+    margin: $margin-within;
+    font-size: $p;
+    color: $grey;
+  }
+
+  .button-clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button-clients button {
+    margin: $margin-side;
+    font-family: $font;
+    font-size: $p;
+    color: $grey;
+    padding: 5px;
+    width: 60%;
+    box-sizing: border-box;
+    border-width: 0.3vw;
+    border-style: solid;
+    transition: opacity 0.6s ease-out 0.6s;
+    background: linear-gradient(
+      40deg,
+      #fcf8f8 10%,
+      #ffd600 30%,
+      #fcf8f8 50%,
+      #47802b 100%
+    );
+    &:hover {
+      color: $grey;
+      transition: 0.5s;
+      background: linear-gradient(
+        40deg,
+        #47802b 10%,
+        #fcf8f8 30%,
+        #ffd600 50%,
+        #fcf8f8 100%
+      );
+    }
+  }
+
+  .work-image {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 30px 0 0 0;
+    margin: $margin-within;
+  }
+
+  img {
+    width: 40%;
+    height: 40%;
+  }
+
+  .work-footer {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  .work {
+    .button-clients button {
+      width: 20%;
+      border-width: 0.1vw;
+    }
+    img {
+      width: 20%;
+      height: 20%;
+    }
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1600px) {
+  .work {
+    .button-clients button {
+      width: 30%;
+      border-width: 0.1vw;
+    }
+    img {
+      width: 20%;
+      height: 20%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .work {
+    .button-clients button {
+      width: 35%;
+    }
+
+    img {
+      width: 30%;
+      height: 30%;
+    }
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 767px) {
+  .work {
+    .button-clients button {
+      width: 40%;
+    }
+
+    img {
+      width: 20%;
+      height: 20%;
+    }
+  }
+}

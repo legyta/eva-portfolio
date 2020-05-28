@@ -1,0 +1,19 @@
+@import "../stylesheets/global.scss";
+
+.read-clients {
+  display: flex;
+  flex-direction: row;
+  font-size: $p;
+  margin: $margin-within;
+  color: $grey;
+}
+
+.read-clients {
+  li {
+    list-style: none;
+  }
+
+  .read-clients1 {
+    margin-right: 30px;
+  }
+}

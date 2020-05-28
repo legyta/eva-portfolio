@@ -1,0 +1,317 @@
+@import "../stylesheets/global.scss";
+
+.contact {
+  .contact-info {
+    margin: $margin;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .contact-info h1 {
+    font-size: $h1;
+    margin: $margin-within;
+    color: $grey;
+  }
+
+  .contact-info p {
+    margin: $margin-within;
+    font-size: $p;
+    color: $grey;
+  }
+
+  .contact-phone {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-phone-email {
+    margin-top: 20px;
+  }
+  .contact-phone img {
+    height: 15%;
+    width: 15%;
+    transform: rotate(0deg);
+    margin-right: 20px;
+  }
+  .contact-email {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-email img {
+    height: 15%;
+    width: 15%;
+    transform: rotate(270deg);
+    margin-right: 20px;
+  }
+
+  .contact-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 0;
+  }
+
+  img {
+    width: 40%;
+    height: 40%;
+  }
+  .contact-footer {
+    margin-top: 254px;
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  .contact {
+    .contact-phone img {
+      height: 10%;
+      width: 10%;
+      margin-right: 50px;
+    }
+    .contact-email img {
+      height: 10%;
+      width: 10%;
+      margin-right: 50px;
+      margin-left: 10px;
+    }
+    .contact-info p {
+      margin-top: 140px;
+      font-size: 1.8rem;
+    }
+
+    .contact-footer {
+      margin-top: 90px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .contact {
+    .contact-info {
+      margin-top: 75px;
+    }
+    .contact-phone img {
+      height: 8%;
+      width: 8%;
+      margin-right: 50px;
+    }
+    .contact-email img {
+      height: 8%;
+      width: 8%;
+      margin-right: 50px;
+      margin-left: 10px;
+    }
+    .contact-info p {
+      margin-top: 80px;
+      font-size: 1.8rem;
+    }
+
+    .contact-footer {
+      margin-top: 12px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .contact {
+    .contact-phone img {
+      height: 10%;
+      width: 10%;
+    }
+    .contact-email img {
+      height: 10%;
+      width: 10%;
+    }
+
+    .contact-footer {
+      margin-top: 113px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contact {
+    .contact-footer {
+      margin-top: 309px;
+    }
+  }
+}
+
+@media screen and (min-width: 734px) and (max-width: 767px) {
+  .contact {
+    .contact-info {
+      margin: 60px 30px 0px 30px;
+    }
+
+    .contact-info h1 {
+      margin-bottom: 0px;
+    }
+    .contact-phone-email {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 0px;
+    }
+
+    .contact-info p {
+      margin: 0px;
+      font-size: 1.6rem;
+    }
+
+    .contact-phone img {
+      height: 25%;
+      width: 25%;
+      margin-right: 0px;
+      margin-bottom: 15px;
+    }
+    .contact-email img {
+      height: 30%;
+      width: 30%;
+      margin-right: 0px;
+      margin-bottom: 5px;
+    }
+
+    .contact-phone {
+      flex-direction: column;
+    }
+
+    .contact-email {
+      flex-direction: column;
+    }
+    .contact-image {
+      margin: 0px 0 0 0;
+    }
+
+    img {
+      width: 25%;
+      height: 25%;
+    }
+    .contact-footer {
+      margin-top: -40px;
+    }
+  }
+}
+
+@media screen and (min-width: 684px) and (max-width: 733px) {
+  .contact {
+    .contact-info {
+      margin: 60px 30px 0px 30px;
+    }
+
+    .contact-info h1 {
+      margin-bottom: 0px;
+    }
+
+    .contact-phone-email {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 0px;
+    }
+
+    .contact-info p {
+      margin: 0px;
+      font-size: 1.6rem;
+      margin-bottom: 0px;
+    }
+
+    .contact-phone img {
+      height: 25%;
+      width: 25%;
+      margin-right: 0px;
+      margin-bottom: 5px;
+    }
+    .contact-email img {
+      height: 25%;
+      width: 25%;
+      margin-right: 0px;
+      margin-bottom: 5px;
+    }
+
+    .contact-phone {
+      flex-direction: column;
+      margin-bottom: 0px;
+    }
+
+    .contact-email {
+      flex-direction: column;
+      margin-bottom: 0px;
+    }
+    .contact-image {
+      margin: 0px;
+    }
+
+    .contact-footer {
+      margin-top: 0px;
+    }
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 683px) {
+  .contact {
+    .contact-info {
+      margin: 60px 30px 0px 30px;
+    }
+
+    .contact-info h1 {
+      margin-bottom: 0px;
+    }
+
+    .contact-phone-email {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 0px;
+    }
+
+    .contact-info p {
+      margin: 0px;
+      font-size: 1.6rem;
+      margin-bottom: 0px;
+    }
+
+    .contact-phone img {
+      height: 25%;
+      width: 25%;
+      margin-right: 0px;
+      margin-bottom: 5px;
+    }
+    .contact-email img {
+      height: 25%;
+      width: 25%;
+      margin-right: 0px;
+      margin-bottom: 5px;
+    }
+
+    .contact-phone {
+      flex-direction: column;
+      margin-bottom: 0px;
+    }
+
+    .contact-email {
+      flex-direction: column;
+      margin-bottom: 0px;
+    }
+    .contact-image {
+      margin: 0px;
+    }
+
+    .contact-footer {
+      margin-top: -50px;
+    }
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 666px) {
+  .contact {
+    .contact-footer {
+      margin-top: 241px;
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .contact {
+    .contact-footer {
+      margin-top: 335px;
+    }
+  }
+}

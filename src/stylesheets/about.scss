@@ -1,0 +1,104 @@
+@import "../stylesheets/global.scss";
+
+.about {
+  margin: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.about {
+  .about-info {
+    margin: $margin;
+  }
+
+  .about-info h1 {
+    font-size: $h1;
+    color: $grey;
+  }
+  .about-info p {
+    margin: $margin-within;
+    font-size: $p;
+    color: $grey;
+  }
+
+  img {
+    height: 80%;
+    width: 80%;
+    margin: $margin-within;
+  }
+
+  .about-image {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: $margin-within;
+  }
+
+  .about-image img {
+    width: 40%;
+    height: 40%;
+  }
+
+  .about-footer {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  .about {
+    .about-info h1 {
+      font-size: 2.8rem;
+    }
+    .about-info p {
+      font-size: 1.6rem;
+    }
+
+    img {
+      width: 25%;
+      height: 25%;
+    }
+    .about-image img {
+      width: 10%;
+      height: 10%;
+    }
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1600px) {
+  .about {
+    img {
+      width: 25%;
+      height: 25%;
+    }
+    .about-image img {
+      width: 10%;
+      height: 10%;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .about {
+    img {
+      width: 40%;
+      height: 40%;
+    }
+    .about-image img {
+      width: 20%;
+      height: 20%;
+    }
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 767px) {
+  .about {
+    img {
+      width: 40%;
+      height: 40%;
+    }
+    .about-image img {
+      width: 25%;
+      height: 25%;
+    }
+  }
+}
