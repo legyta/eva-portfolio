@@ -1,0 +1,103 @@
+@import "../stylesheets/global.scss";
+
+.form {
+  .form-info {
+    margin: 20px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .form-info h2 {
+    font-size: $h2;
+    margin: $margin-within;
+    color: $grey;
+  }
+
+  .form-info label {
+    font-size: $p;
+    color: $grey;
+  }
+
+  input {
+    font-size: $p;
+    color: $grey;
+  }
+
+  textarea {
+    font-size: $h2;
+    color: $grey;
+  }
+
+  .submit-message {
+    font-size: $p;
+    color: $green;
+    margin: $margin-within;
+  }
+
+  .button-clients button {
+    margin-bottom: 0px;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  .form {
+    .button-clients button {
+      width: 25%;
+    }
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .form {
+    .button-clients button {
+      width: 25%;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .form {
+    .button-clients button {
+      width: 45%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .form {
+    .form-info h2 {
+      font-size: 2rem;
+      margin: $margin-within;
+      color: $grey;
+    }
+
+    .button-clients button {
+      width: 45%;
+    }
+  }
+}
+
+@media screen and (min-width: 734px) and (max-width: 767px) {
+  .form {
+    .button-clients button {
+      width: 30%;
+    }
+  }
+}
+
+@media screen and (min-width: 684px) and (max-width: 733px) {
+  .form {
+    .button-clients button {
+      width: 30%;
+    }
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 683px) {
+  .form {
+    .button-clients button {
+      width: 35%;
+    }
+  }
+}

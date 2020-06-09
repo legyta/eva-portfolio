@@ -30,10 +30,63 @@
     margin: 30px 0 0 0;
   }
 
-  img {
-    width: 60%;
-    height: 60%;
+  .index-image-beach img {
+    max-width: 100%;
+    height: auto;
+    //margin: 30px 0 0 0;
   }
+
+  .index-image img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .beach-title {
+    margin: 30px 0 0 0;
+  }
+
+  .button-clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button-clients button {
+    margin: $margin-side;
+    font-family: $font;
+    font-size: $p;
+    color: $grey;
+    padding: 5px;
+    width: 80%;
+    box-sizing: border-box;
+    border-width: 0.3vw;
+    border-style: solid;
+    transition: opacity 0.6s ease-out 0.6s;
+    background: linear-gradient(
+      40deg,
+      #fcf8f8 10%,
+      #ffd600 30%,
+      #fcf8f8 50%,
+      #47802b 100%
+    );
+    &:hover {
+      color: $grey;
+      transition: 0.5s;
+      background: linear-gradient(
+        40deg,
+        #47802b 10%,
+        #fcf8f8 30%,
+        #ffd600 50%,
+        #fcf8f8 100%
+      );
+    }
+  }
+
+  .button-clients button a {
+    text-decoration: none;
+    color: $grey;
+  }
+
   .index-footer {
     margin-top: 40px;
   }
@@ -41,23 +94,32 @@
 
 @media screen and (min-width: 1601px) {
   .index-page {
-    margin: 10px 0px 0px 0px;
+    margin: 90px 0px 0px 0px;
   }
   .index-page {
-    .index-title {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
+    // .index-title {
+    //   display: flex;
+    //   flex-direction: row;
+    //   align-items: center;
+    // }
 
-    .index-name-title {
-      display: flex;
-      flex-direction: column;
-    }
+    // .index-name-title {
+    //   display: flex;
+    //   flex-direction: column;
+    // }
 
-    img {
+    .index-image-beach img {
       width: 50%;
       height: 50%;
+    }
+
+    .index-image img {
+      width: 30%;
+      height: 30%;
+    }
+
+    .button-clients button {
+      width: 40%;
     }
 
     .index-footer {
@@ -68,11 +130,11 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   .index-page {
-    margin: 20px 0px 0px 0px;
+    margin: 90px 0px 0px 0px;
   }
 
   .index-page {
-    .index-title {
+    .index-format {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -81,11 +143,25 @@
     .index-name-title {
       display: flex;
       flex-direction: column;
+      width: 70%;
+      justify-content: center;
     }
 
-    img {
-      width: 40%;
-      height: 40%;
+    .index-image-beach img {
+      width: 90%;
+      height: 90%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0px;
+    }
+
+    .index-image img {
+      width: 20%;
+      height: 20%;
+    }
+
+    .button-clients button {
+      width: 30%;
     }
 
     .index-footer {
@@ -95,7 +171,7 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .index-title {
+  .index-format {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -104,7 +180,10 @@
   .index-name-title {
     display: flex;
     flex-direction: column;
+    width: 70%;
+    justify-content: center;
   }
+
   .index-page {
     h1 {
       font-size: 4.2rem;
@@ -115,12 +194,25 @@
       font-size: 2.2rem;
       color: $grey;
     }
-    img {
-      width: 40%;
-      height: 40%;
+
+    .index-image-beach img {
+      width: 90%;
+      height: 90%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0px;
     }
+
+    .index-image img {
+      width: 20%;
+      height: 20%;
+    }
+    .button-clients button {
+      width: 30%;
+    }
+
     .index-footer {
-      margin-top: 188px;
+      margin-top: 20px;
     }
   }
 }
@@ -139,21 +231,32 @@
       font-size: 2.4rem;
       color: $grey;
     }
-    img {
-      width: 40%;
-      height: 40%;
+
+    .index-image-beach img {
+      height: 80%;
+      width: 80%;
+      margin: 30px 0 0 0;
     }
+    .index-image img {
+      width: 30%;
+      height: 30%;
+    }
+
+    .button-clients button {
+      width: 40%;
+    }
+
     .index-footer {
-      margin-top: 62px;
+      margin-top: 20px;
     }
   }
 }
 
 @media screen and (min-width: 734px) and (max-width: 767px) {
   .index-page {
-    margin: 20px 0px 0px 0px;
+    margin: 90px 0px 0px 0px;
   }
-  .index-title {
+  .index-format {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -162,6 +265,8 @@
   .index-name-title {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    justify-content: center;
   }
 
   .index-page {
@@ -170,24 +275,41 @@
     }
 
     h2 {
-      font-size: 1.4rem;
+      font-size: 1.8rem;
       color: $grey;
     }
-    img {
+
+    .index-image-beach img {
+      width: 90%;
+      height: 90%;
+      justify-content: center;
+      align-items: center;
+      margin-left: 20px;
+    }
+
+    .index-image img {
+      width: 20%;
+      height: 20%;
+    }
+
+    .beach-title {
+      margin-top: 38px;
+    }
+    .button-clients button {
       width: 40%;
-      height: 40%;
     }
     .index-footer {
-      margin-top: 0px;
+      margin-top: 20px;
     }
   }
 }
 
 @media screen and (min-width: 684px) and (max-width: 733px) {
   .index-page {
-    margin: 20px 0px 0px 0px;
+    margin: 90px 0px 0px 0px;
   }
-  .index-title {
+
+  .index-format {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -196,6 +318,8 @@
   .index-name-title {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    justify-content: center;
   }
 
   .index-page {
@@ -204,24 +328,43 @@
     }
 
     h2 {
-      font-size: 1.4rem;
+      font-size: 1.8rem;
       color: $grey;
     }
-    img {
-      width: 40%;
-      height: 40%;
+
+    .index-image-beach img {
+      width: 90%;
+      height: 90%;
+      justify-content: center;
+      align-items: center;
+      margin-left: 20px;
     }
+
+    .beach-title {
+      margin-top: 64px;
+    }
+
+    .index-image img {
+      width: 30%;
+      height: 30%;
+    }
+
+    .button-clients button {
+      width: 40%;
+    }
+
     .index-footer {
-      margin-top: 30px;
+      margin-top: 20px;
     }
   }
 }
 
 @media screen and (min-width: 667px) and (max-width: 683px) {
   .index-page {
-    margin: 20px 0px 0px 0px;
+    margin: 90px 0px 0px 0px;
   }
-  .index-title {
+
+  .index-format {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -230,6 +373,8 @@
   .index-name-title {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    justify-content: center;
   }
 
   .index-page {
@@ -238,15 +383,33 @@
     }
 
     h2 {
-      font-size: 1.2rem;
+      font-size: 1.8rem;
       color: $grey;
     }
-    img {
-      width: 35%;
-      height: 35%;
+
+    .index-image-beach img {
+      width: 90%;
+      height: 90%;
+      justify-content: center;
+      align-items: center;
+      margin-left: 20px;
     }
+
+    .beach-title {
+      margin-top: 64px;
+    }
+
+    .index-image img {
+      width: 30%;
+      height: 30%;
+    }
+
+    .button-clients button {
+      width: 40%;
+    }
+
     .index-footer {
-      margin-top: 0px;
+      margin-top: 20px;
     }
   }
 }
@@ -255,6 +418,9 @@
   .index-page {
     h1 {
       font-size: 3rem;
+    }
+    .index-image-beach img {
+      margin-top: 30px;
     }
     .index-footer {
       margin-top: 22px;
@@ -267,8 +433,11 @@
     h1 {
       font-size: 3rem;
     }
+    .index-image-beach img {
+      margin-top: 30px;
+    }
     .index-footer {
-      margin-top: 52px;
+      margin-top: 20px;
     }
   }
 }

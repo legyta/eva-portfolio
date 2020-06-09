@@ -50,15 +50,57 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 0 0 0;
+    margin: 0px 0px;
   }
 
   img {
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
   }
+
+  .button-clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button-clients button {
+    margin: $margin-side;
+    font-family: $font;
+    font-size: $p;
+    color: $grey;
+    padding: 5px;
+    width: 50%;
+    box-sizing: border-box;
+    border-width: 0.3vw;
+    border-style: solid;
+    transition: opacity 0.6s ease-out 0.6s;
+    background: linear-gradient(
+      40deg,
+      #fcf8f8 10%,
+      #ffd600 30%,
+      #fcf8f8 50%,
+      #47802b 100%
+    );
+    &:hover {
+      color: $grey;
+      transition: 0.5s;
+      background: linear-gradient(
+        40deg,
+        #47802b 10%,
+        #fcf8f8 30%,
+        #ffd600 50%,
+        #fcf8f8 100%
+      );
+    }
+  }
+
+  .button-clients button a {
+    text-decoration: none;
+    color: $grey;
+  }
+
   .contact-footer {
-    margin-top: 254px;
+    margin-top: 20px;
   }
 }
 
@@ -78,6 +120,16 @@
     .contact-info p {
       margin-top: 140px;
       font-size: 1.8rem;
+    }
+
+    .contact-image img {
+      margin: 0px;
+      width: 20%;
+      height: 20%;
+    }
+
+    .button-clients button {
+      width: 25%;
     }
 
     .contact-footer {
@@ -107,6 +159,16 @@
       font-size: 1.8rem;
     }
 
+    .contact-image img {
+      margin: 0px;
+      width: 20%;
+      height: 20%;
+    }
+
+    .button-clients button {
+      width: 25%;
+    }
+
     .contact-footer {
       margin-top: 12px;
     }
@@ -124,8 +186,17 @@
       width: 10%;
     }
 
+    .contact-image img {
+      margin: 0px;
+      width: 20%;
+      height: 20%;
+    }
+
+    .button-clients button {
+      width: 40%;
+    }
     .contact-footer {
-      margin-top: 113px;
+      margin-top: 20px;
     }
   }
 }
@@ -134,6 +205,20 @@
   .contact {
     .contact-footer {
       margin-top: 309px;
+    }
+
+    .contact-image img {
+      margin: 0px;
+      width: 20%;
+      height: 20%;
+    }
+
+    .button-clients button {
+      width: 40%;
+    }
+
+    .contact-footer {
+      margin-top: 20px;
     }
   }
 }
@@ -183,11 +268,15 @@
     }
 
     img {
-      width: 25%;
-      height: 25%;
+      width: 20%;
+      height: 20%;
+    }
+
+    .button-clients button {
+      width: 30%;
     }
     .contact-footer {
-      margin-top: -40px;
+      margin-top: 20px;
     }
   }
 }
@@ -236,12 +325,18 @@
       flex-direction: column;
       margin-bottom: 0px;
     }
-    .contact-image {
+    .contact-image img {
       margin: 0px;
+      height: 20%;
+      width: 20%;
+    }
+
+    .button-clients button {
+      width: 30%;
     }
 
     .contact-footer {
-      margin-top: 0px;
+      margin-top: 20px;
     }
   }
 }
@@ -290,12 +385,18 @@
       flex-direction: column;
       margin-bottom: 0px;
     }
-    .contact-image {
+    .contact-image img {
       margin: 0px;
+      height: 20%;
+      width: 20%;
+    }
+
+    .button-clients button {
+      width: 30%;
     }
 
     .contact-footer {
-      margin-top: -50px;
+      margin-top: 20px;
     }
   }
 }
@@ -303,7 +404,7 @@
 @media screen and (min-width: 412px) and (max-width: 666px) {
   .contact {
     .contact-footer {
-      margin-top: 241px;
+      margin-top: 20px;
     }
   }
 }
@@ -311,7 +412,7 @@
 @media screen and (min-width: 375px) and (max-width: 411px) {
   .contact {
     .contact-footer {
-      margin-top: 335px;
+      margin-top: 20px;
     }
   }
 }

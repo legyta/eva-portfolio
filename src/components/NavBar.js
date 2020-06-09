@@ -21,17 +21,17 @@ export default class NavBar extends Component {
                 </li>
                 <li>
                   <Link to="/work">
-                    <a>My work</a>{" "}
+                    <a>How I work</a>{" "}
                   </Link>
                 </li>
                 <li>
                   <Link to="/about">
-                    <a>Get to know me</a>{" "}
+                    <a>About me</a>{" "}
                   </Link>
                 </li>
                 <li>
                   <Link to="/contact">
-                    <a>Let's connect </a>
+                    <a>Contact details</a>
                   </Link>
                 </li>
               </ul>

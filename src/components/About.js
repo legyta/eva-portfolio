@@ -5,6 +5,7 @@ import NavBar from "./NavBar";
 import eva from "../images/eva.JPG";
 import Footer from "./Footer";
 import cactus from "../images/cactus.svg";
+import leaf from "../images/leaf.svg";
 
 function About() {
   return (
@@ -20,6 +21,11 @@ function About() {
           feel that emotions overwhelm us. We may find our self wanting help
           from others, but at the same time pushing everyone away.
         </p>
+
+        <div className="about-image">
+          <img src={leaf} alt="leaf" />
+        </div>
+
         <p>
           Sometimes the mirrors we get are not constructive, or can even be
           damaging, and we have no idea how to change our internal self critic.
@@ -46,6 +52,14 @@ function About() {
           in our mind"
         </p>
       </div>
+
+      <div className="button-clients">
+        <button className="button">
+          {" "}
+          <Link to="/">Back to home</Link>
+        </button>
+      </div>
+
       <div className="footer">
         <div className="about-footer">
           <Footer />
