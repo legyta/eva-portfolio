@@ -18,11 +18,23 @@
     color: $grey;
   }
 
-  h2 {
-    font-size: 1.8rem;
-    color: $grey;
+  .index-image-eva img {
+    max-width: 50%;
+    border-radius: 550px;
+    height: auto;
+    margin-bottom: 30px;
   }
 
+  h2 {
+    font-size: 1.5rem;
+    color: $grey;
+    margin-bottom: 15px;
+  }
+
+  .index-image-leaf {
+    display: flex;
+    flex-direction: row;
+  }
   .index-image {
     display: flex;
     justify-content: center;
@@ -33,16 +45,17 @@
   .index-image-beach img {
     max-width: 100%;
     height: auto;
-    //margin: 30px 0 0 0;
+    margin-top: 60px;
   }
 
   .index-image img {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
   }
 
-  .beach-title {
+  .beach-title h2 {
     margin: 30px 0 0 0;
+    font-size: 1.2rem;
   }
 
   .button-clients {
