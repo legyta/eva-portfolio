@@ -58,6 +58,12 @@
     height: 30%;
   }
 
+  .contact-quote p {
+    margin: $margin-side;
+    font-size: $p;
+    color: $grey;
+  }
+
   .button-clients {
     display: flex;
     align-items: center;
@@ -108,25 +114,25 @@
 @media screen and (min-width: 1601px) {
   .contact {
     .contact-phone img {
-      height: 10%;
-      width: 10%;
+      height: 5%;
+      width: 5%;
       margin-right: 50px;
     }
     .contact-email img {
-      height: 10%;
-      width: 10%;
+      height: 5%;
+      width: 5%;
       margin-right: 50px;
       margin-left: 10px;
     }
     .contact-info p {
-      margin-top: 140px;
-      font-size: 1.8rem;
+      margin-top: 60px;
+      font-size: 1.6rem;
     }
 
     .contact-image img {
       margin: 0px;
-      width: 20%;
-      height: 20%;
+      width: 10%;
+      height: 10%;
     }
 
     .button-clients button {
@@ -162,8 +168,8 @@
 
     .contact-image img {
       margin: 0px;
-      width: 20%;
-      height: 20%;
+      width: 10%;
+      height: 10%;
     }
 
     .button-clients button {
