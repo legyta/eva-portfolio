@@ -8,7 +8,7 @@ import phone from "../images/phone.svg";
 import leaf from "../images/leaf.svg";
 import Form from "./Form";
 import PropTypes from "prop-types";
-
+import quote2 from "../images/quote2.svg";
 class Contact extends Component {
   render() {
     return (
@@ -33,18 +33,14 @@ class Contact extends Component {
           </div>
         </div>
 
+        <div className="contact-quote">
+          <img src={quote2} alt="quote" />
+        </div>
+
         <Form env={this.props.env} />
 
         <div className="contact-image">
           <img src={leaf} alt="leaf" />
-        </div>
-
-        <div className="contact-quote">
-          <p>
-            Going to therapy is like having a personal trainer for your mind.
-            It's tailored to you and your needs, it's positive, focused and
-            you're supported throughout by your therapist.
-          </p>
         </div>
 
         <div className="button-clients">

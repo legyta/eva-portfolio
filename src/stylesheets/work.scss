@@ -37,6 +37,11 @@
     height: 40%;
   }
 
+  .work-quote {
+    width: 250%;
+    height: 250%;
+  }
+
   .button-clients {
     display: flex;
     align-items: center;
@@ -106,6 +111,10 @@
       width: 10%;
       height: 10%;
     }
+    .work-quote {
+      width: 350%;
+      height: 350%;
+    }
   }
 }
 
@@ -119,6 +128,10 @@
       width: 30%;
       height: 30%;
     }
+    .work-quote {
+      width: 150%;
+      height: 150%;
+    }
   }
 }
 
@@ -131,6 +144,10 @@
     img {
       width: 20%;
       height: 20%;
+    }
+    .work-quote {
+      width: 250%;
+      height: 250%;
     }
   }
 }

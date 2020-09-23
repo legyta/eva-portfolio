@@ -46,6 +46,14 @@ function About() {
           clients and space to the therapist to truly hold the client in mind. I
           realised the importance of working with younger clients, due to the
           amount of people struggling with messages they received in childhood.
+        </p>
+
+        <div className="about-image">
+          <img src={cactus} alt="cactus" />
+        </div>
+
+        <p>
+          {" "}
           This is when I started the MA in child and adolescent psychotherapy,
           enabling children to acquire the tools within them that they will need
           to meet the inevitable challenge’s life brings. I also work with EFT
@@ -64,7 +72,7 @@ function About() {
         </p>
 
         <div className="about-image">
-          <img src={cactus} alt="cactus" />
+          <img src={leaf} alt="leaf" />
         </div>
       </div>
 

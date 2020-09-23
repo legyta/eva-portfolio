@@ -46,6 +46,12 @@
     margin-right: 20px;
   }
 
+  .contact-quote {
+    width: 80%;
+    height: 80%;
+    margin-left: 30px;
+  }
+
   .contact-image {
     display: flex;
     justify-content: center;
@@ -58,6 +64,11 @@
     height: 30%;
   }
 
+  // .contact-quote img {
+  //   width: 80%;
+  //   height: 80%;
+  //   margin-left: 40px;
+  // }
   .contact-quote p {
     margin: $margin-side;
     font-size: $p;
@@ -166,6 +177,11 @@
       font-size: 1.8rem;
     }
 
+    .contact-quote {
+      width: 150%;
+      height: 150%;
+    }
+
     .contact-image img {
       margin: 0px;
       width: 10%;
@@ -199,6 +215,11 @@
       height: 20%;
     }
 
+    .contact-quote {
+      width: 150%;
+      height: 150%;
+    }
+
     .button-clients button {
       width: 40%;
     }
@@ -218,6 +239,11 @@
       margin: 0px;
       width: 20%;
       height: 20%;
+    }
+
+    .contact-quote {
+      width: 200%;
+      height: 200%;
     }
 
     .button-clients button {
@@ -279,6 +305,11 @@
       height: 20%;
     }
 
+    .contact-quote {
+      width: 250%;
+      height: 250%;
+    }
+
     .button-clients button {
       width: 30%;
     }
@@ -326,6 +357,11 @@
     .contact-phone {
       flex-direction: column;
       margin-bottom: 0px;
+    }
+
+    .contact-quote {
+      width: 200%;
+      height: 200%;
     }
 
     .contact-email {
@@ -398,6 +434,11 @@
       width: 20%;
     }
 
+    .contact-quote {
+      width: 200%;
+      height: 200%;
+    }
+
     .button-clients button {
       width: 30%;
     }
@@ -413,6 +454,10 @@
     .contact-footer {
       margin-top: 20px;
     }
+    .contact-quote {
+      width: 250%;
+      height: 250%;
+    }
   }
 }
 
@@ -420,6 +465,11 @@
   .contact {
     .contact-footer {
       margin-top: 20px;
+    }
+
+    .contact-quote {
+      width: 250%;
+      height: 250%;
     }
   }
 }

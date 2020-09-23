@@ -5,6 +5,7 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 import cactus from "../images/cactus.svg";
 import leaf from "../images/leaf.svg";
+import quote1 from "../images/quote1.svg";
 
 function Work() {
   return (
@@ -18,21 +19,18 @@ function Work() {
           of the BACP/UKCP, specialising in working with children and
           adolescence as an Integrative psychotherapist.
         </p>
+        <div className="work-image">
+          <img src={leaf} alt="leaf" />
+        </div>
         <p>
           I offer long-term and short-term face-to-face and online sessions. Our
           appointments are weekly, at the time we agree together. The
           appointments last 50 minutes, these appointments are confidential and
           led by You.
         </p>
-        <div className="work-image">
-          <img src={leaf} alt="leaf" />
+        <div className="work-quote">
+          <img src={quote1} alt="quote" />
         </div>
-        <p>
-          "Therapy has given me a safe, non-judgemental space where I can speak
-          freely. I'd be lying if I said I hadn't found it tough at times - but
-          Eva has supported me throughout. I've never felt pressured by her and
-          can go at my own pace."
-        </p>
         <h1>Therapeutic approach</h1>
         <p>
           As an integrative therapist, I integrate a lot of different modalities
@@ -67,10 +65,10 @@ function Work() {
           words, and having to speak to a complete stranger.
         </p>
         <p>
-          Sometimes reflections about ourselves are painful, or even damaging
-          and we have no idea how to change our internal self-critic. Working
-          together to challenge (with love) our decisions and our behaviours,
-          can transform patterns we thought defined us.
+          Sometimes beliefs about ourselves are painful, or even damaging and we
+          have no idea how to change our internal self-critic. Working together
+          to challenge (with love) our decisions and our behaviours, can
+          transform patterns we thought defined us.
         </p>
         <div className="work-image">
           <img src={leaf} alt="leaf" />
