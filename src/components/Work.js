@@ -29,7 +29,7 @@ function Work() {
           led by You.
         </p>
         <div className="work-quote">
-          <img src={quote1} alt="quote" />
+          <img className="work-quote-image" src={quote1} alt="quote" />
         </div>
         <h1>Therapeutic approach</h1>
         <p>
@@ -104,8 +104,10 @@ function Work() {
         </button>
       </div>
 
-      <div className="work-footer">
-        <Footer />
+      <div className="footer">
+        <div className="work-footer">
+          <Footer />
+        </div>
       </div>
     </div>
   );

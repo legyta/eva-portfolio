@@ -2,7 +2,6 @@
 
 .form {
   .form-info {
-    //margin: 20px 390px 0px 90px;
     margin: $margin-side;
     display: flex;
     flex-direction: column;
@@ -11,7 +10,6 @@
 
   .form-info h2 {
     font-size: $h2;
-    margin: $margin-within;
     color: $grey;
   }
 

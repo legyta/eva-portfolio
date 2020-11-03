@@ -2,7 +2,7 @@
 
 .contact {
   .contact {
-    margin: $margin;
+    margin: 0px 0px;
   }
 
   .contact-info {
@@ -50,17 +50,17 @@
     margin-right: 20px;
   }
 
-  .contact-quote {
-    width: 80%;
-    height: 80%;
-    margin: 0 90px;
-  }
-
   .contact-image {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px 0px;
+  }
+
+  .contact-quote-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
   }
 
   img {
@@ -143,6 +143,11 @@
       font-size: 1.6rem;
     }
 
+    .contact-quote-image {
+      width: 20%;
+      margin: 40px 90px;
+    }
+
     .contact-image img {
       margin: 0px;
       width: 10%;
@@ -182,14 +187,19 @@
     }
 
     .contact-quote {
-      width: 150%;
-      height: 150%;
+      width: 94%;
     }
 
     .contact-image img {
       margin: 0px;
       width: 10%;
       height: 10%;
+    }
+
+    .contact-quote-image {
+      width: 30%;
+      margin-top: 40px;
+      margin-left: 90px;
     }
 
     .button-clients button {
@@ -222,13 +232,13 @@
       height: 20%;
     }
 
-    .contact-quote {
-      width: 150%;
-      height: 150%;
+    .contact-quote-image {
+      width: 40%;
+      margin: 40px 90px;
     }
 
     .button-clients button {
-      width: 40%;
+      width: 20%;
     }
     .contact-footer {
       margin-top: 20px;
@@ -248,9 +258,8 @@
       height: 20%;
     }
 
-    .contact-quote {
-      width: 200%;
-      height: 200%;
+    .contact-quote-image {
+      width: 40%;
     }
 
     .button-clients button {
@@ -312,9 +321,13 @@
       height: 20%;
     }
 
-    .contact-quote {
-      width: 250%;
-      height: 250%;
+    // .contact-quote {
+    //   width: 250%;
+    //   height: 250%;
+    // }
+
+    .contact-quote-image {
+      width: 40%;
     }
 
     .button-clients button {
@@ -366,9 +379,8 @@
       margin-bottom: 0px;
     }
 
-    .contact-quote {
-      width: 200%;
-      height: 200%;
+    .contact-quote-image {
+      width: 40%;
     }
 
     .contact-email {
@@ -441,9 +453,8 @@
       width: 20%;
     }
 
-    .contact-quote {
-      width: 200%;
-      height: 200%;
+    .contact-quote-image {
+      width: 40%;
     }
 
     .button-clients button {
@@ -461,9 +472,8 @@
     .contact-footer {
       margin-top: 20px;
     }
-    .contact-quote {
-      width: 250%;
-      height: 250%;
+    .contact-quote-image {
+      width: 60%;
     }
   }
 }
@@ -473,10 +483,8 @@
     .contact-footer {
       margin-top: 20px;
     }
-
-    .contact-quote {
-      width: 250%;
-      height: 250%;
+    .contact-quote-image {
+      width: 60%;
     }
   }
 }

@@ -34,7 +34,7 @@ class Contact extends Component {
         </div>
 
         <div className="contact-quote">
-          <img src={quote2} alt="quote" />
+          <img className="contact-quote-image" src={quote2} alt="quote" />
         </div>
 
         <Form env={this.props.env} />

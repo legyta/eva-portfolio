@@ -1,7 +1,10 @@
 @import "../stylesheets/global.scss";
 
-.work {
+.about {
   margin: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
 }
 
 .work {
@@ -11,7 +14,7 @@
 
   .work-info h1 {
     font-size: $h1;
-    margin: $margin-within;
+    //margin: $margin-within;
     color: $grey;
   }
   .work-info h2 {
@@ -28,7 +31,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    margin: 30px 0 0 0;
+    //margin: 30px 0 0 0;
     margin: $margin-within;
   }
 
@@ -37,9 +40,9 @@
     height: 40%;
   }
 
-  .work-quote {
-    width: 250%;
-    height: 250%;
+  .work-quote-image {
+    width: 20%;
+    margin: 40px 0;
   }
 
   .button-clients {
@@ -99,8 +102,8 @@
       border-width: 0.1vw;
     }
     img {
-      width: 10%;
-      height: 10%;
+      margin: 40px 0;
+      width: 8%;
     }
   }
 }
@@ -119,8 +122,12 @@
       height: 10%;
     }
     .work-quote {
-      width: 350%;
-      height: 350%;
+      width: 94%;
+    }
+
+    .work-quote-image {
+      width: 30%;
+      margin: 40px 0;
     }
   }
 }
@@ -139,6 +146,9 @@
       width: 150%;
       height: 150%;
     }
+    .work-quote-image {
+      width: 30%;
+    }
   }
 }
 
@@ -155,6 +165,14 @@
     .work-quote {
       width: 250%;
       height: 250%;
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  .work {
+    .work-quote-image {
+      width: 80%;
     }
   }
 }
