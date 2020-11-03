@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 import cactus from "../images/cactus.svg";
 import leaf from "../images/leaf.svg";
-import quote1 from "../images/quote1.svg";
+import quote1 from "../images/quote1.png";
 
 function Work() {
   return (

@@ -91,8 +91,11 @@
 
 @media screen and (min-width: 1601px) {
   .work {
+    .work-info {
+      margin: 90px 100px 0 100px;
+    }
     .button-clients button {
-      width: 20%;
+      width: 15%;
       border-width: 0.1vw;
     }
     img {
@@ -103,8 +106,12 @@
 }
 @media screen and (min-width: 1025px) and (max-width: 1600px) {
   .work {
+    .work-info {
+      margin: 90px 90px 0 90px;
+    }
+
     .button-clients button {
-      width: 20%;
+      width: 15%;
       border-width: 0.1vw;
     }
     img {

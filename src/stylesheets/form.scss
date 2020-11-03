@@ -2,7 +2,8 @@
 
 .form {
   .form-info {
-    margin: 20px 30px 0px 30px;
+    //margin: 20px 390px 0px 90px;
+    margin: $margin-side;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -34,32 +35,97 @@
     color: $green;
     margin: $margin-within;
   }
+}
 
-  .button-clients button {
-    margin-bottom: 0px;
-    width: 60%;
+.button-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-form button {
+  margin: 30px 30px;
+  font-family: $font;
+  font-size: $p;
+  color: $grey;
+  padding: 5px;
+  width: 50%;
+  box-sizing: border-box;
+  border-width: 0.3vw;
+  border-style: solid;
+  border-radius: 20px;
+  transition: opacity 0.6s ease-out 0.6s;
+  background: linear-gradient(
+    40deg,
+    #fcf8f8 10%,
+    #ffd600 30%,
+    #fcf8f8 50%,
+    #47802b 100%
+  );
+  &:hover {
+    color: $grey;
+    transition: 0.5s;
+    background: linear-gradient(
+      40deg,
+      #47802b 10%,
+      #fcf8f8 30%,
+      #ffd600 50%,
+      #fcf8f8 100%
+    );
   }
+}
+
+.button-form button a {
+  text-decoration: none;
+  color: $grey;
 }
 
 @media screen and (min-width: 1601px) {
   .form {
-    .button-clients button {
-      width: 25%;
+    .form-info {
+      margin: 90px 100px 0 100px;
+    }
+    .button-form button {
+      width: 15%;
+      margin: 30px 0;
+    }
+    .button-form {
+      display: flex;
+      align-items: center;
+      justify-content: left;
     }
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   .form {
-    .button-clients button {
-      width: 25%;
+    .form-info {
+      margin: 90px 90px 0 90px;
+    }
+    .button-form button {
+      width: 15%;
+      margin: 30px 0;
+    }
+    .button-form {
+      display: flex;
+      align-items: center;
+      justify-content: left;
     }
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .form {
-    .button-clients button {
+    .form-info {
+      margin: 90px 90px 0 90px;
+    }
+    .button-form button {
       width: 45%;
+      margin: 30px 0;
+    }
+    .button-form {
+      display: flex;
+      align-items: center;
+      justify-content: left;
     }
   }
 }
@@ -72,7 +138,7 @@
       color: $grey;
     }
 
-    .button-clients button {
+    .button-form button {
       width: 45%;
     }
   }
@@ -80,7 +146,7 @@
 
 @media screen and (min-width: 734px) and (max-width: 767px) {
   .form {
-    .button-clients button {
+    .button-form button {
       width: 30%;
     }
   }
@@ -88,7 +154,7 @@
 
 @media screen and (min-width: 684px) and (max-width: 733px) {
   .form {
-    .button-clients button {
+    .button-form button {
       width: 30%;
     }
   }
@@ -96,7 +162,7 @@
 
 @media screen and (min-width: 667px) and (max-width: 683px) {
   .form {
-    .button-clients button {
+    .button-form button {
       width: 35%;
     }
   }

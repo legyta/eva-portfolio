@@ -1,6 +1,10 @@
 @import "../stylesheets/global.scss";
 
 .contact {
+  .contact {
+    margin: $margin;
+  }
+
   .contact-info {
     margin: $margin;
     display: flex;
@@ -49,7 +53,7 @@
   .contact-quote {
     width: 80%;
     height: 80%;
-    margin-left: 30px;
+    margin: 0 90px;
   }
 
   .contact-image {
@@ -64,11 +68,6 @@
     height: 30%;
   }
 
-  // .contact-quote img {
-  //   width: 80%;
-  //   height: 80%;
-  //   margin-left: 40px;
-  // }
   .contact-quote p {
     margin: $margin-side;
     font-size: $p;
@@ -80,6 +79,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .button-clients button {
     margin: $margin-side;
     font-family: $font;
@@ -124,6 +124,9 @@
 
 @media screen and (min-width: 1601px) {
   .contact {
+    .contact-info {
+      margin: 90px 100px 0 100px;
+    }
     .contact-phone img {
       height: 5%;
       width: 5%;
@@ -147,7 +150,7 @@
     }
 
     .button-clients button {
-      width: 25%;
+      width: 15%;
     }
 
     .contact-footer {
@@ -159,8 +162,9 @@
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   .contact {
     .contact-info {
-      margin-top: 75px;
+      margin: 90px 90px 0 90px;
     }
+
     .contact-phone img {
       height: 8%;
       width: 8%;
@@ -189,7 +193,7 @@
     }
 
     .button-clients button {
-      width: 25%;
+      width: 15%;
     }
 
     .contact-footer {
@@ -200,6 +204,9 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .contact {
+    .contact-info {
+      margin: 90px 90px 0 90px;
+    }
     .contact-phone img {
       height: 10%;
       width: 10%;

@@ -60,7 +60,7 @@ export default function Form() {
         {errors.feedback && "Please leave a message"}
 
         {errors.errorMessage?.message}
-        <div className="button-clients">
+        <div className="button-form">
           <button className="button" type="submit">
             Send{" "}
           </button>
