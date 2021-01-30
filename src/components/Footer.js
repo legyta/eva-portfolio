@@ -9,7 +9,7 @@ const Footer = () => {
         297226
       </p>
       <span>
-        © 2020 <br />
+        &copy;{new Date().getFullYear()} <br />
         Eva Serra
         <br />
         07969834074
