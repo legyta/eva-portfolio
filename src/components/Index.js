@@ -25,6 +25,7 @@ function Index() {
             <h2>Integrative psychotherapist</h2>
 
             <h2>BACP & UKCP Acredited/Registered</h2>
+            <h2>Currently studying</h2>
           </div>
         </div>
 
@@ -49,11 +50,11 @@ function Index() {
         <div className="index-image">
           <img src={leaf} alt="leaf" />
         </div>
-        <div className="button-clients">
+        {/* <div className="button-clients">
           <button className="button">
             <Link to="contact">Make an appointment</Link>
           </button>
-        </div>
+        </div> */}
 
         {/* <div className="index-image">
           <img src={leaf} alt="leaf" />

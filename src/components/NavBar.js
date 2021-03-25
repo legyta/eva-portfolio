@@ -19,7 +19,7 @@ export default class NavBar extends Component {
                     <a>Home</a>{" "}
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/work">
                     <a>How I work</a>{" "}
                   </Link>
@@ -33,7 +33,7 @@ export default class NavBar extends Component {
                   <Link to="/contact">
                     <a>Contact details</a>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
